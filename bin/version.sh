@@ -1,22 +1,20 @@
 #!/bin/sh
 
-# Licensed to the Apache Software Foundation (ASF) under one or more
-# contributor license agreements.  See the NOTICE file distributed with
-# this work for additional information regarding copyright ownership.
-# The ASF licenses this file to You under the Apache License, Version 2.0
-# (the "License"); you may not use this file except in compliance with
-# the License.  You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
 # -----------------------------------------------------------------------------
-# Version Script for the CATALINA Server
+# 查看Tomcat的版本、操作系统信息
+#Using CATALINA_BASE:   /usr/local/tomcat8
+#Using CATALINA_HOME:   /usr/local/tomcat8
+#Using CATALINA_TMPDIR: /usr/local/tomcat8/temp
+#Using JRE_HOME:        /usr/jdk18
+#Using CLASSPATH:       /usr/local/tomcat8/bin/bootstrap.jar:/usr/local/tomcat8/bin/tomcat-juli.jar
+#Server version: Apache Tomcat/8.0.38
+#Server built:   Oct 6 2016 20:51:55 UTC
+#Server number:  8.0.38.0
+#OS Name:        Linux
+#OS Version:     2.6.32-431.el6.i686
+#Architecture:   i386
+#JVM Version:    1.8.0_101-b13
+#JVM Vendor:     Oracle Corporation
 # -----------------------------------------------------------------------------
 
 # Better OS/400 detection: see Bugzilla 31132

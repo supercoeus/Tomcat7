@@ -1,22 +1,19 @@
 #!/bin/sh
 
-# Licensed to the Apache Software Foundation (ASF) under one or more
-# contributor license agreements.  See the NOTICE file distributed with
-# this work for additional information regarding copyright ownership.
-# The ASF licenses this file to You under the Apache License, Version 2.0
-# (the "License"); you may not use this file except in compliance with
-# the License.  You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
 # -----------------------------------------------------------------------------
-# Configuration Test Script for the CATALINA Server
+# 测试配置文件是否有错
+#严重: Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+#java.net.BindException: 地址已在使用
+#严重: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+#org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+#Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+#Caused by: java.net.BindException: 地址已在使用
+#
+#严重: Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"]
+#java.net.BindException: 地址已在使用
+#严重: Failed to initialize connector [Connector[AJP/1.3-8009]]
+#org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+#
 # -----------------------------------------------------------------------------
 
 # Better OS/400 detection: see Bugzilla 31132

@@ -2,11 +2,12 @@
 <!--  -->
 <tomcat-users>
 <!-- Tomcat用户认证的配置文件 -->
-<!--  -->
+  <!-- 定义角色 -->
   <role rolename="tomcat"/>
   <role rolename="role1"/>
+  <!-- 给用户分配角色 -->
   <user username="tomcat" password="tomcat123" roles="tomcat"/>
-  <user username="both" password="<must-be-changed>" roles="tomcat,role1"/>
-  <user username="role1" password="<must-be-changed>" roles="role1"/>
+  <user username="manager" password="<must-be-changed>" roles="tomcat,role1"/>
+  <user username="user01" password="<must-be-changed>" roles="role1"/>
 
 </tomcat-users>
